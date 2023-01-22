@@ -25,6 +25,6 @@ function $(selector: string) {
   return new JQuery(selector)
 }
 
-window.$ = $
+// window.$ = $
 
 export default JQuery
